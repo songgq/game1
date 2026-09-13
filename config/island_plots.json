@@ -1,0 +1,71 @@
+{
+  "schemaVersion": "1.0",
+  "configVersion": "pve-island-plots-1.2.0",
+  "map": {"worldSizePixel": [720, 1280], "cellSize": 32, "landOriginPixel": [24, 80], "landColumns": 21, "landRows": 35, "plotColumns": 3, "plotRows": 5, "plotSizeCells": 7},
+  "initialUnlocked": [1, 2, 3, 4],
+  "unlockOrder": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+  "plots": [
+    {"plotId": 1, "column": 3, "row": 3, "originCell": [14,14], "requiredPlayerLevel": 1, "cost": {}, "contents": [
+      {"instanceKey":"home","type":"building","contentId":"home","localCell":[1,1],"sizeCells":[3,3],"state":"READY"},
+      {"instanceKey":"storage_chest","type":"building","contentId":"storage_chest","localCell":[5,1],"sizeCells":[2,2],"state":"READY"},
+      {"instanceKey":"worker_spawn","type":"marker","contentId":"worker_spawn","localCell":[3,5],"sizeCells":[1,1],"state":"READY"}
+    ]},
+    {"plotId": 2, "column": 2, "row": 3, "originCell": [7,14], "requiredPlayerLevel": 1, "cost": {}, "contents": [
+      {"instanceKey":"farm_2a","type":"farm","contentId":"normal_farm","localCell":[1,1],"sizeCells":[1,1],"state":"EMPTY"},
+      {"instanceKey":"farm_2b","type":"farm","contentId":"normal_farm","localCell":[4,1],"sizeCells":[1,1],"state":"EMPTY"},
+      {"instanceKey":"tree_2a","type":"resource","contentId":"normal_tree","localCell":[3,4],"sizeCells":[1,1],"state":"READY"}
+    ]},
+    {"plotId": 3, "column": 2, "row": 2, "originCell": [7,7], "requiredPlayerLevel": 1, "cost": {}, "contents": [
+      {"instanceKey":"farm_3a","type":"farm","contentId":"normal_farm","localCell":[1,1],"sizeCells":[1,1],"state":"EMPTY"},
+      {"instanceKey":"ore_3a","type":"resource","contentId":"normal_ore","localCell":[4,3],"sizeCells":[1,1],"state":"READY"}
+    ]},
+    {"plotId": 4, "column": 3, "row": 2, "originCell": [14,7], "requiredPlayerLevel": 1, "cost": {}, "contents": [
+      {"instanceKey":"tree_4a","type":"resource","contentId":"normal_tree","localCell":[1,3],"sizeCells":[1,1],"state":"READY"},
+      {"instanceKey":"workbench","type":"building","contentId":"workbench","localCell":[3,2],"sizeCells":[3,2],"state":"FOUNDATION"}
+    ]},
+    {"plotId": 5, "column": 3, "row": 1, "originCell": [14,0], "requiredPlayerLevel": 3, "cost": {"wood":20,"ore":10}, "contents": [
+      {"instanceKey":"farm_5a","type":"farm","contentId":"normal_farm","localCell":[1,1],"sizeCells":[1,1],"state":"EMPTY"},
+      {"instanceKey":"farm_5b","type":"farm","contentId":"normal_farm","localCell":[4,1],"sizeCells":[1,1],"state":"EMPTY"},
+      {"instanceKey":"tree_5a","type":"resource","contentId":"normal_tree","localCell":[3,4],"sizeCells":[1,1],"state":"READY"}
+    ]},
+    {"plotId": 6, "column": 2, "row": 1, "originCell": [7,0], "requiredPlayerLevel": 5, "cost": {"wood":35,"ore":20,"plank":5}, "contents": [
+      {"instanceKey":"dense_tree_6a","type":"resource","contentId":"dense_tree","localCell":[2,2],"sizeCells":[1,1],"state":"READY"},
+      {"instanceKey":"tree_6a","type":"resource","contentId":"normal_tree","localCell":[4,4],"sizeCells":[1,1],"state":"READY"}
+    ]},
+    {"plotId": 7, "column": 1, "row": 1, "originCell": [0,0], "requiredPlayerLevel": 7, "cost": {"wood":50,"ore":25,"plank":10}, "contents": [
+      {"instanceKey":"dense_tree_7a","type":"resource","contentId":"dense_tree","localCell":[2,2],"sizeCells":[1,1],"state":"READY"},
+      {"instanceKey":"special_farm_7a","type":"farm","contentId":"herb_farm","localCell":[4,3],"sizeCells":[1,1],"state":"EMPTY"}
+    ]},
+    {"plotId": 8, "column": 1, "row": 2, "originCell": [0,7], "requiredPlayerLevel": 9, "cost": {"wood":55,"ore":45,"ingot":8}, "contents": [
+      {"instanceKey":"ore_8a","type":"resource","contentId":"normal_ore","localCell":[2,3],"sizeCells":[1,1],"state":"READY"},
+      {"instanceKey":"smelter","type":"building","contentId":"smelter","localCell":[3,2],"sizeCells":[3,2],"state":"FOUNDATION"}
+    ]},
+    {"plotId": 9, "column": 1, "row": 3, "originCell": [0,14], "requiredPlayerLevel": 11, "cost": {"wood":70,"ore":60,"ingot":12}, "contents": [
+      {"instanceKey":"rich_ore_9a","type":"resource","contentId":"rich_ore","localCell":[2,2],"sizeCells":[1,1],"state":"READY"},
+      {"instanceKey":"ore_9a","type":"resource","contentId":"normal_ore","localCell":[4,4],"sizeCells":[1,1],"state":"READY"}
+    ]},
+    {"plotId": 10, "column": 1, "row": 4, "originCell": [0,21], "requiredPlayerLevel": 13, "cost": {"wood":80,"ore":75,"plank":15,"ingot":15}, "contents": [
+      {"instanceKey":"forge","type":"building","contentId":"forge","localCell":[2,2],"sizeCells":[3,2],"state":"FOUNDATION"}
+    ]},
+    {"plotId": 11, "column": 2, "row": 4, "originCell": [7,21], "requiredPlayerLevel": 15, "cost": {"wood":100,"ore":80,"cloth":10}, "contents": [
+      {"instanceKey":"farm_11a","type":"farm","contentId":"normal_farm","localCell":[1,1],"sizeCells":[1,1],"state":"EMPTY"},
+      {"instanceKey":"farm_11b","type":"farm","contentId":"normal_farm","localCell":[4,1],"sizeCells":[1,1],"state":"EMPTY"},
+      {"instanceKey":"herb_farm_11a","type":"farm","contentId":"herb_farm","localCell":[3,4],"sizeCells":[1,1],"state":"EMPTY"}
+    ]},
+    {"plotId": 12, "column": 3, "row": 4, "originCell": [14,21], "requiredPlayerLevel": 17, "cost": {"wood":110,"ore":100,"moon_essence":3}, "contents": [
+      {"instanceKey":"alchemy","type":"building","contentId":"alchemy","localCell":[2,2],"sizeCells":[3,2],"state":"FOUNDATION"}
+    ]},
+    {"plotId": 13, "column": 3, "row": 5, "originCell": [14,28], "requiredPlayerLevel": 20, "cost": {"wood":130,"ore":120,"tough_fiber":8,"star_essence":2}, "contents": [
+      {"instanceKey":"farm_13a","type":"farm","contentId":"normal_farm","localCell":[1,1],"sizeCells":[1,1],"state":"EMPTY"},
+      {"instanceKey":"farm_13b","type":"farm","contentId":"normal_farm","localCell":[4,1],"sizeCells":[1,1],"state":"EMPTY"},
+      {"instanceKey":"advanced_farm_13a","type":"farm","contentId":"advanced_farm","localCell":[3,4],"sizeCells":[1,1],"state":"EMPTY"}
+    ]},
+    {"plotId": 14, "column": 2, "row": 5, "originCell": [7,28], "requiredPlayerLevel": 24, "cost": {"wood":160,"ore":150,"star_essence":4,"dragon_essence":2}, "contents": [
+      {"instanceKey":"advanced_workshop","type":"building","contentId":"advanced_workshop","localCell":[2,2],"sizeCells":[3,2],"state":"FOUNDATION"}
+    ]},
+    {"plotId": 15, "column": 1, "row": 5, "originCell": [0,28], "requiredPlayerLevel": 28, "cost": {"wood":200,"ore":180,"star_essence":6,"dragon_essence":4,"rock_core":1}, "contents": [
+      {"instanceKey":"rich_ore_15a","type":"resource","contentId":"rich_ore","localCell":[2,2],"sizeCells":[1,1],"state":"READY"},
+      {"instanceKey":"dense_tree_15a","type":"resource","contentId":"dense_tree","localCell":[4,4],"sizeCells":[1,1],"state":"READY"}
+    ]}
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "schemaVersion": "1.0",
+  "configVersion": "pve-recipes-1.0.0",
+  "recipes": [
+    {"id":"plank","name":"木板","buildingType":"workbench","durationMs":600000,"inputs":{"wood":3},"outputs":{"plank":1}},
+    {"id":"ingot","name":"铁锭","buildingType":"smelter","durationMs":900000,"inputs":{"ore":3},"outputs":{"ingot":1}},
+    {"id":"cloth","name":"布料","buildingType":"workbench","durationMs":900000,"inputs":{"flax":3},"outputs":{"cloth":1}},
+    {"id":"tough_fiber","name":"强韧纤维","buildingType":"workbench","durationMs":1800000,"inputs":{"iron_vine":2,"cloth":1},"outputs":{"tough_fiber":1}},
+    {"id":"herb_extract","name":"草药提取物","buildingType":"alchemy","durationMs":600000,"inputs":{"sprout_grass":2,"silver_leaf":1},"outputs":{"herb_extract":1}},
+    {"id":"moon_essence","name":"月光精华","buildingType":"alchemy","durationMs":2700000,"inputs":{"moon_grass":3},"outputs":{"moon_essence":1}},
+    {"id":"star_essence","name":"星辉精华","buildingType":"advanced_workshop","durationMs":7200000,"inputs":{"star_flower":3},"outputs":{"star_essence":1}},
+    {"id":"dragon_essence","name":"龙血精华","buildingType":"advanced_workshop","durationMs":14400000,"inputs":{"dragon_vine":2},"outputs":{"dragon_essence":1}},
+    {"id":"mech_part","name":"机械零件","buildingType":"advanced_workshop","durationMs":3600000,"inputs":{"ingot":4,"plank":2},"outputs":{"mech_part":1}}
+  ]
+}

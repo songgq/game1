@@ -1,0 +1,11 @@
+{
+  "schemaVersion":"1.0",
+  "configVersion":"pve-player-skill-tree-1.0.0",
+  "islandWorkerNodes":[
+    {"id":"WORKER_MOVE","maxRank":3,"modifierField":"moveSpeedBp","rankValues":[500,1000,1500]},
+    {"id":"RETURN_SPEED","maxRank":3,"modifierField":"returnSpeedBp","rankValues":[500,1000,1500]},
+    {"id":"GATHER_MASTERY","maxRank":3,"modifierField":"gatherWorkReductionBp","rankValues":[500,1000,1500]},
+    {"id":"FARM_MASTERY","maxRank":3,"modifierField":"farmWorkReductionBp","rankValues":[500,1000,1500]},
+    {"id":"CRAFT_MASTERY","maxRank":3,"modifierField":"craftWorkReductionBp","rankValues":[500,1000,1500]}
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": "1.0",
+  "configVersion": "pve-heroes-1.0.0",
+  "heroes": [
+    {
+      "id": "warrior",
+      "name": "战士",
+      "role": "前排承伤/保护",
+      "maxLevel": 15,
+      "baseStats": {"maxHp": 180, "physicalAttack": 18, "physicalDefense": 35, "magicDefense": 15, "skillPower": 0, "attackRange": 32, "moveSpeed": 58, "attackIntervalMs": 1200},
+      "growthBpPerLevel": {"maxHp": 700, "physicalAttack": 300, "physicalDefense": 600, "magicDefense": 400, "skillPower": 0}
+    },
+    {
+      "id": "spearman",
+      "name": "长枪手",
+      "role": "突进/近战输出",
+      "maxLevel": 15,
+      "baseStats": {"maxHp": 130, "physicalAttack": 26, "physicalDefense": 18, "magicDefense": 10, "skillPower": 0, "attackRange": 48, "moveSpeed": 74, "attackIntervalMs": 1200},
+      "growthBpPerLevel": {"maxHp": 500, "physicalAttack": 600, "physicalDefense": 400, "magicDefense": 300, "skillPower": 0}
+    },
+    {
+      "id": "archer",
+      "name": "射手",
+      "role": "远程持续物理输出",
+      "maxLevel": 15,
+      "baseStats": {"maxHp": 85, "physicalAttack": 20, "physicalDefense": 8, "magicDefense": 8, "skillPower": 0, "attackRange": 180, "moveSpeed": 64, "attackIntervalMs": 1200},
+      "growthBpPerLevel": {"maxHp": 400, "physicalAttack": 600, "physicalDefense": 300, "magicDefense": 300, "skillPower": 0}
+    },
+    {
+      "id": "mage",
+      "name": "法师",
+      "role": "技能输出/可转治疗",
+      "maxLevel": 15,
+      "baseStats": {"maxHp": 90, "physicalAttack": 10, "physicalDefense": 6, "magicDefense": 18, "skillPower": 130, "attackRange": 160, "moveSpeed": 62, "attackIntervalMs": 1400},
+      "growthBpPerLevel": {"maxHp": 400, "physicalAttack": 200, "physicalDefense": 200, "magicDefense": 400, "skillPower": 700}
+    },
+    {
+      "id": "worker",
+      "name": "工人",
+      "role": "战斗采集/经济位",
+      "maxLevel": 15,
+      "baseStats": {"maxHp": 110, "physicalAttack": 8, "physicalDefense": 12, "magicDefense": 10, "skillPower": 0, "attackRange": 32, "moveSpeed": 60, "attackIntervalMs": 1300},
+      "growthBpPerLevel": {"maxHp": 500, "physicalAttack": 300, "physicalDefense": 300, "magicDefense": 300, "skillPower": 0}
+    }
+  ]
+}

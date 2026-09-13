@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "emerald://schemas/versioned-config-1.0",
+  "type": "object",
+  "required": ["schemaVersion", "configVersion"],
+  "properties": {
+    "schemaVersion": {"type": "string", "minLength": 1},
+    "configVersion": {"type": "string", "minLength": 1}
+  },
+  "additionalProperties": true
+}

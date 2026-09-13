@@ -1,0 +1,12 @@
+.godot/
+.venv*/
+build/
+*.tmp
+*.log
+__pycache__/
+*.py[cod]
+.DS_Store
+deepseek.txt
+*.env
+!*.env.example
+

@@ -1,0 +1,13 @@
+{
+  "schemaVersion": "1.0",
+  "configVersion": "pve-island-buildings-1.0.0",
+  "buildings": [
+    {"id":"home","name":"主屋","buildDurationMs":0,"buildInputs":{},"initialReady":true},
+    {"id":"storage_chest","name":"储物箱","buildDurationMs":0,"buildInputs":{},"initialReady":true},
+    {"id":"workbench","name":"基础工作台","buildDurationMs":180000,"buildInputs":{"wood":8,"ore":4},"initialReady":false},
+    {"id":"smelter","name":"熔炉","buildDurationMs":1800000,"buildInputs":{"wood":30,"ore":30},"initialReady":false},
+    {"id":"forge","name":"铁匠铺","buildDurationMs":3600000,"buildInputs":{"plank":20,"ingot":15},"initialReady":false},
+    {"id":"alchemy","name":"药剂台","buildDurationMs":3600000,"buildInputs":{"plank":15,"cloth":10,"moon_essence":2},"initialReady":false},
+    {"id":"advanced_workshop","name":"高级工坊","buildDurationMs":14400000,"buildInputs":{"ingot":30,"tough_fiber":10,"star_essence":4},"initialReady":false}
+  ]
+}

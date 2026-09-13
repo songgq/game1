@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1.0",
+  "configVersion": "pve-crops-1.0.0",
+  "crops": [
+    {"id":"sprout_grass","name":"青芽草","seedItemId":"sprout_grass_seed","outputItemId":"sprout_grass","growDurationMs":180000,"yieldQuantity":2,"seedPriceCoins":2,"allowedFarmTypes":["normal_farm","herb_farm","advanced_farm"]},
+    {"id":"red_root","name":"红根草","seedItemId":"red_root_seed","outputItemId":"red_root","growDurationMs":480000,"yieldQuantity":2,"seedPriceCoins":3,"allowedFarmTypes":["normal_farm","herb_farm","advanced_farm"]},
+    {"id":"flax","name":"亚麻","seedItemId":"flax_seed","outputItemId":"flax","growDurationMs":1800000,"yieldQuantity":2,"seedPriceCoins":6,"allowedFarmTypes":["normal_farm","herb_farm","advanced_farm"]},
+    {"id":"silver_leaf","name":"银叶草","seedItemId":"silver_leaf_seed","outputItemId":"silver_leaf","growDurationMs":3600000,"yieldQuantity":2,"seedPriceCoins":8,"allowedFarmTypes":["normal_farm","herb_farm","advanced_farm"]},
+    {"id":"iron_vine","name":"铁藤","seedItemId":"iron_vine_seed","outputItemId":"iron_vine","growDurationMs":14400000,"yieldQuantity":2,"seedPriceCoins":20,"allowedFarmTypes":["herb_farm","advanced_farm"]},
+    {"id":"moon_grass","name":"月光草","seedItemId":"moon_grass_seed","outputItemId":"moon_grass","growDurationMs":21600000,"yieldQuantity":2,"seedPriceCoins":30,"allowedFarmTypes":["herb_farm","advanced_farm"]},
+    {"id":"star_flower","name":"星辉花","seedItemId":"star_flower_seed","outputItemId":"star_flower","growDurationMs":43200000,"yieldQuantity":1,"seedPriceCoins":60,"allowedFarmTypes":["advanced_farm"]},
+    {"id":"dragon_vine","name":"龙血藤","seedItemId":"dragon_vine_seed","outputItemId":"dragon_vine","growDurationMs":86400000,"yieldQuantity":1,"seedPriceCoins":100,"allowedFarmTypes":["advanced_farm"]}
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": "1.0",
+  "configVersion": "pve-hero-upgrade-1.0.0",
+  "costs": [
+    {"targetLevel": 2, "heroCards": 2, "coins": 50, "playerXp": 20},
+    {"targetLevel": 3, "heroCards": 4, "coins": 100, "playerXp": 30},
+    {"targetLevel": 4, "heroCards": 6, "coins": 150, "playerXp": 40},
+    {"targetLevel": 5, "heroCards": 10, "coins": 250, "playerXp": 50},
+    {"targetLevel": 6, "heroCards": 15, "coins": 400, "playerXp": 60},
+    {"targetLevel": 7, "heroCards": 20, "coins": 600, "playerXp": 70},
+    {"targetLevel": 8, "heroCards": 30, "coins": 900, "playerXp": 80},
+    {"targetLevel": 9, "heroCards": 40, "coins": 1300, "playerXp": 90},
+    {"targetLevel": 10, "heroCards": 60, "coins": 1800, "playerXp": 100},
+    {"targetLevel": 11, "heroCards": 80, "coins": 2500, "playerXp": 110},
+    {"targetLevel": 12, "heroCards": 120, "coins": 3500, "playerXp": 120},
+    {"targetLevel": 13, "heroCards": 160, "coins": 5000, "playerXp": 130},
+    {"targetLevel": 14, "heroCards": 220, "coins": 7000, "playerXp": 140},
+    {"targetLevel": 15, "heroCards": 300, "coins": 10000, "playerXp": 150}
+  ]
+}

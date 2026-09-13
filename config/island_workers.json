@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1.0",
+  "configVersion": "pve-island-workers-1.2.0",
+  "maxWorkers": 5,
+  "maxQueuedTasksPerWorker": 50,
+  "maxTerminalTaskHistoryPerWorker": 20,
+  "maxOfflineTransitionsPerRequest": 500,
+  "initialWorkerCell": [17, 19],
+  "moveSpeedPxPerSecond": 128,
+  "returnSpeedPxPerSecond": 96,
+  "depositDurationMs": 2000,
+  "plantWorkDurationMs": 4000,
+  "harvestWorkDurationMs": 5000
+}

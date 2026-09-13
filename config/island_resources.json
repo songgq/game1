@@ -1,0 +1,10 @@
+{
+  "schemaVersion": "1.0",
+  "configVersion": "pve-island-resources-1.0.0",
+  "resources": [
+    {"id":"normal_tree","outputItemId":"wood","outputQuantity":1,"maxCharges":3,"workDurationMs":12000,"recoveryDurationMs":14400000},
+    {"id":"dense_tree","outputItemId":"wood","outputQuantity":1,"maxCharges":4,"workDurationMs":14000,"recoveryDurationMs":21600000},
+    {"id":"normal_ore","outputItemId":"ore","outputQuantity":1,"maxCharges":3,"workDurationMs":15000,"recoveryDurationMs":21600000},
+    {"id":"rich_ore","outputItemId":"ore","outputQuantity":1,"maxCharges":4,"workDurationMs":18000,"recoveryDurationMs":43200000}
+  ]
+}
